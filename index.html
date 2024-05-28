@@ -1,50 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Landing Page Personal</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>My Personal Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Bienvenido a Mi Página Personal</h1>
+    <h1>Welcome to My Personal Page</h1>
 </header>
 
 <nav>
-    <a href="#portada">Portada</a>
+    <a href="#home">Home</a>
     <a href="#hobbies">Hobbies</a>
-    <a href="#series-peliculas">Series y Películas</a>
-    <a href="#contacto">Contacto</a>
+    <a href="#favorite-shows-movies">Favorite Shows and Movies</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<section id="portada">
-    <h2>Portada</h2>
-    <p>Hola, soy Luis Martin Reynoso Cibrian, y esta es mi página personal. Aquí puedes conocer más sobre mis hobbies, mis series y películas favoritas, y cómo contactarme.</p>
+<section id="home">
+    <h2>Home</h2>
+    <p>Hello, I am Luis Martin Reynoso Cibrian, and this is my personal page. Here you can learn more about my hobbies, my favorite shows and movies, and how to contact me.</p>
 </section>
 
 <section id="hobbies">
     <h2>Hobbies</h2>
-    <p>Me gusta pasar mi tiempo libre haciendo diversas actividades. Algunos de mis hobbies incluyen:</p>
+    <p>I like to spend my free time doing various activities. Some of my hobbies include:</p>
     <ul>
-        <li>Leer Manga</li>
-        <li>Jugar videojuegos</li>
-        <li>Escuchar música</li>
-        <li>Viajar y conocer nuevos lugares</li>
+        <li>Reading Manga</li>
+        <li>Playing video games</li>
+        <li>Listening to music</li>
+        <li>Traveling and exploring new places</li>
     </ul>
 </section>
 
-<section id="series-peliculas">
-    <h2>Series y Películas Favoritas</h2>
-    <p>Algunas de mis series y películas favoritas son:</p>
+<section id="favorite-shows-movies">
+    <h2>Favorite Shows and Movies</h2>
+    <p>Some of my favorite shows and movies are:</p>
     <ul>
-        <li>Series:Aggretsuko, Blue eyes Samurai
-        <li>Películas:Harry Potter, Avengers, Spiderman
+        <li>Shows: Aggretsuko, Blue Eye Samurai</li>
+        <li>Movies: Harry Potter, Avengers, Spiderman</li>
     </ul>
 </section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
 <footer>
-    <p>&copy; 2024 Luis Martin Reynoso Cibrian. Todos los derechos reservados.</p>
+    <p>&copy; 2024 Luis Martin Reynoso Cibrian. All rights reserved.</p>
 </footer>
 
 </body>
